@@ -9,10 +9,6 @@ class Odometre extends React.Component {
       val: "0000"
     }
   }
-  // zeroPad = (num, places) => String(num).padStart(places, '0')
-  zeroPad(num,places){
-    return String(num).padStart(places,'0')
-  }
 
   addToOdometer(num){
     this.state.counter += num
